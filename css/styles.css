@@ -17,11 +17,19 @@ body{
   margin: 0;
   font-family: 'Playfair Display', serif;
   color: var(--accent);
+
 }
 .container{
   width: 1140px;
   margin:0 auto;
   padding: 0 15px;
+}
+.section{
+  padding: 40px 0;
+}
+.section-title{
+  text-transform: uppercase;
+  text-align: center;
 }
 .header{
   background-color: var(--accent);
@@ -62,4 +70,76 @@ body{
 }
 .header-menu-item :hover {
   background-color: var(--accent-light);
+}
+.intro{
+  padding: 60px 0;
+ 
+}
+.intro-inner{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 25px; */
+}
+.intro-left{
+  width: 30%;
+ 
+}
+.intro-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.intro-right{
+  width: 60%;
+}
+.intro-right h1
+.intro-right h3 {
+  margin: 0 0 10px;
+}
+.contacts{
+  margin-bottom: 60px;
+}
+.contacts ul{
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contacts li {
+  text-align: center;
+}
+.skills{
+ 
+  color: var(--pure-white);
+  background-color: var(--accent);
+  border-radius: 15px;
+}
+.skills ul{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 15px;
+margin: 0;
+padding: 20px 0 ;
+list-style: none;
+}
+.skills li{
+  padding: 10px 25px;
+  background-color: var(--accent-light);
+  border-radius: 4px;
+}
+.code-example {
+text-align: center;
+}
+.code-example pre {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.5em;
+  text-align: left;
+  background-color: var(--accent);
+  color: var(--pure-white);
+  border-radius: 8px;
 }
