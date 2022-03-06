@@ -112,10 +112,8 @@ body{
   text-align: center;
 }
 .skills{
- 
   color: var(--pure-white);
   background-color: var(--accent);
-  border-radius: 15px;
 }
 .skills ul{
 display: flex;
@@ -142,4 +140,85 @@ text-align: center;
   background-color: var(--accent);
   color: var(--pure-white);
   border-radius: 8px;
+}
+.portfolio{
+  color: var(--pure-white);
+  background-color: var(--accent);
+}
+.block_row{
+  display: inline-flex;
+  align-items: center;
+  margin: 0px 0px 20px 0px;
+ text-align: center;
+}
+.block_columb1{
+  order: 3;
+}
+.block_columb2{
+  order: 2;
+}
+.block_columb3{
+  order: 1;
+}
+.block_columb{
+  flex-basis: 30px;
+  border: 7px solid var(--accent-light);
+}
+.block_item{
+  background-color: var(--accent-light);
+  padding: 30px 50px;
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  
+}
+.block_item2{
+  width: 400px;
+  height: 250px;
+  background-image: url("/images/code.png");
+  background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.block_item1{
+  width: 350px;
+  height: 200px;
+  background-image: url("/images/logo-infinity.jpg");
+background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+h5{
+  color: var(--pure-white);
+  font-size: 20px;
+  text-decoration: none;
+}
+.block_item3{
+  width: 350px;
+  height: 200px;
+  background-image: url("/images/github.png");
+  background-size: cover;
+    background-repeat: no-repeat;
+}
+.languages-section ul{
+  list-style: none;
+}
+.languages-section li {
+  font-size: 20px;
+  padding: 8px 0;
+}
+.education{
+  color: var(--pure-white);
+  background-color: var(--accent);
+  padding: 30px;
+}
+.education li{
+    font-size: 20px;
+    padding: 8px 0;
+  }
+footer{
+  font-size: 17px;
+  text-align: center;
+  padding: 40px 40px;
+  text-decoration: none;
 }
